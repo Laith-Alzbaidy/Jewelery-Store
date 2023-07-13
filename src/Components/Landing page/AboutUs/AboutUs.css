@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Center {
+  width: 80%;
+  background-color: #faf3e9;
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+.Center img {
+  width: 50%;
+}
+.Text {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  gap: 15px;
+}
+.Text {
+  font-size: 21px;
+}
+.JewelleryStore {
+  text-align: center;
+
+  font-weight: 450;
+  color: black;
+  font-size: 35px;
+  gap: 10px;
+}
+
+@media (max-width: 830px) {
+  .Center {
+    flex-direction: column;
+  }
+  .Center img {
+    width: 100%;
+  }
+  .JewelleryStor {
+    font-size: 28px;
+  }
+}
